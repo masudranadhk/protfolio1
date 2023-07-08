@@ -116,7 +116,7 @@ nav a {
 .about {
 
     padding: 50px 50px 50px 50px;
-    */ border-radius: 20px;
+    border-radius: 20px;
     background: #FFF8F3;
     margin: 130px;
 
@@ -166,41 +166,93 @@ main {
 .whatido {
     /* text-align: center; */
     padding: 30px 150px;
-     /* margin: 200px; */
+    /* margin: 200px; */
 
 }
 
+/* what I do related style */
 
+#what-id-do-desc {
 
-.skill-container{
+    padding: 10px 190px;
+    color: var(--dark-03, #757575);
+    text-align: center;
+    /* font-family: Open Sans; */
+
+}
+
+.skill-container {
     display: flex;
-    gap: 20px;
-    
+    /* margin-right: 130px; */
+    gap: 24px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 20px;
+    background: white;
+    margin: 50px;
 }
 
-.skill{
+.skill {
     padding: 30px;
     border-radius: 5px;
-background: #FFF;
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
 }
 
-.skill-description{
+.skill-description {
     color: var(--dark-03, #757575);
-    justify-content: space-between;
-/* font-family: Open Sans; */
-font-size: 15px;
-font-style: normal;
-/* font-weight: 400;
-line-height: 28px; */
+    /* font-family: Open Sans; */
+    font-size: 16px;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* line-height: 28px; */
 }
-.skill-title{
-    color:  #181818;
-/* text-align: center; */
+
+
+/* Resume Style */
+.resume-column-title {
+    color: #474747;
+    /* font-family: Open Sans; */
+    font-size: 30px;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: normal; */
+
+}
+.resume-container{
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    margin: 50px;
+    
+
+}
+
+.resume-item-title{
+    color: var(--dark-02, #474747);
+/* font-family: Open Sans; */
+font-size: 25px;
+/* font-style: normal; */
+font-weight: 700;
+/* line-height: normal; */
+
+}
+
+.resume-item-institure{
+    color: var(--dark-03, #757575);
 /* font-family: Open Sans; */
 font-size: 20px;
 /* font-style: normal; */
-/* font-weight: 700; */
+font-weight: 600;
 /* line-height: normal; */
+
+}
+
+.resume-item-description{
+    color: var(--dark-03, #757575);
+/* font-family: Open Sans; */
+font-size: 16px;
+/* font-style: normal; */
+font-weight: 400;
+/* line-height: 28px; */
+
 }
