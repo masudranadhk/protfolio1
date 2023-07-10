@@ -221,8 +221,8 @@ main {
 }
 .resume-container{
     display: flex;
-    padding: 50px 50px 50px 50px;
-    margin: 50px;
+   gap: 50px;
+   margin: 50px;
     
 
 }
